@@ -142,7 +142,7 @@ export default function Pricing() {
           <div className="absolute bottom-20 right-10 w-24 h-24 bg-pink-500/20 rounded-lg animate-float" style={{animationDelay: '1s'}}></div>
         </div>
 
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10 mt-30">
           <div className="max-w-6xl mx-auto text-center">
             <h1 className="text-5xl md:text-8xl font-bold mb-8 leading-tight">
               <span className="block text-white drop-shadow-lg">Transparent</span>
