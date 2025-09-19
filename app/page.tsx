@@ -222,13 +222,17 @@ export default function Home() {
               </span>
             </h1>
 
-            {/* Futuristic Description */}
+            {/* Updated Description */}
             <p className="text-xl md:text-2xl mb-12 text-white/90 max-w-4xl mx-auto leading-relaxed">
-              Experience next-generation cyber café services with 
+              At CyberAds, we blend traditional cyber café services like internet browsing, printing, and scanning with modern solutions such as web design, mobile apps, digital marketing, and tech accessories — making work and creativity easier for our community.
+            </p>
+
+            <p className="text-xl md:text-2xl mb-12 text-white/90 max-w-4xl mx-auto leading-relaxed">
+              Experience next-generation services with 
               <span className="text-cyan-300 font-semibold"> AI-powered workflows</span>, 
               <span className="text-purple-300 font-semibold"> premium workstations</span>, and 
               <span className="text-pink-300 font-semibold"> innovative design</span> 
-              that redefines what a tech hub can be.
+              that redefine the modern tech hub.
             </p>
 
             {/* Innovative CTA Buttons */}
