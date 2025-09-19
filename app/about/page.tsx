@@ -35,19 +35,41 @@ export default function About() {
       name: "Samuel Kiprotich",
       role: "Founder & Manager",
       description: "With over 10 years in the tech industry, Samuel founded CyberAds to bridge the digital divide in Changamwe.",
-      avatar: "👨‍💼"
+      // Using Picsum for demo images - replace with actual team photos
+      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg"
+    },
+        {
+      name: "Samuel Kiprotich",
+      role: "Founder & Manager",
+      description: "With over 10 years in the tech industry, Samuel founded CyberAds to bridge the digital divide in Changamwe.",
+      // Using Picsum for demo images - replace with actual team photos
+      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg"
+    },
+        {
+      name: "Samuel Kiprotich",
+      role: "Founder & Manager",
+      description: "With over 10 years in the tech industry, Samuel founded CyberAds to bridge the digital divide in Changamwe.",
+      // Using Picsum for demo images - replace with actual team photos
+      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg"
+    },
+        {
+      name: "Samuel Kiprotich",
+      role: "Founder & Manager",
+      description: "With over 10 years in the tech industry, Samuel founded CyberAds to bridge the digital divide in Changamwe.",
+      // Using Picsum for demo images - replace with actual team photos
+      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg"
     },
     {
       name: "Grace Wanjiku",
       role: "Customer Service Lead",
       description: "Grace ensures every customer receives personalized attention and leaves satisfied with our services.",
-      avatar: "👩‍💼"
+      image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
     },
     {
       name: "David Mwangi",
       role: "Technical Specialist",
       description: "David handles all technical operations and maintains our equipment to ensure optimal performance.",
-      avatar: "👨‍🔧"
+      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg"
     }
   ]
 
@@ -304,12 +326,22 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             {team.map((member, index) => (
               <div key={index} className="glass rounded-3xl p-8 border border-white/20 text-center group transform hover:scale-105 transition-all duration-500 card-3d">
-                <div className="text-6xl mb-6">{member.avatar}</div>
+                <div className="relative mb-6">
+                  <div className="w-32 h-32 mx-auto rounded-full overflow-hidden border-4 border-white/20 shadow-lg">
+                    <img 
+                      src={member.image} 
+                      alt={member.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-gradient-to-r from-cyan-400 to-purple-400 text-white px-3 py-1 rounded-full text-xs font-semibold">
+                    {member.role.split('&')[0].trim()}
+                  </div>
+                </div>
                 <h3 className="text-xl font-bold mb-2 group-hover:text-cyan-300 transition-colors">
                   {member.name}
                 </h3>
-                <p className="text-purple-300 font-semibold mb-4">{member.role}</p>
-                <p className="text-white/70 leading-relaxed">
+                <p className="text-white/70 leading-relaxed mb-4">
                   {member.description}
                 </p>
                 

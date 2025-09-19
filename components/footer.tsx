@@ -51,11 +51,15 @@ export default function Footer() {
             <ul className="space-y-3 text-gray-400 text-sm">
               <li>Internet Browsing</li>
               <li>Printing & Photocopying</li>
-              <li>Scanning & Lamination</li>
-              <li>Typing Services</li>
-              <li>Stationery Sales</li>
+              <li>Hosting & Domain Services</li>
+              <li>Mobile App Development</li>
+              <li>Web Design & Development</li>
               <li>Computer Accessories</li>
-              <li>M-Pesa Services</li>
+              <li>Software Solutions</li>
+              <li>Stationery Sales</li>
+              <li>Typing Services</li>
+              <li>Scanning and Lamination</li>
+              <li>Fintech & M-Pesa Services</li>
             </ul>
           </div>
 
@@ -74,7 +78,7 @@ export default function Footer() {
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-400 flex-shrink-0" />
-                <p className="text-gray-400 text-sm">+254 123 456 789</p>
+                <p className="text-gray-400 text-sm">+254 723 614255</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-blue-400 flex-shrink-0" />
@@ -95,9 +99,11 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © {new Date().getFullYear()} CyberAds. All rights reserved. | 
-            Designed for the Changamwe community.
+            © {new Date().getFullYear()} Designed by <a href="https://lawmwad.vercel.app">Cyber Ads Team</a>
           </p>
+          <p className="text-gray-400 text-sm">
+            <a href="https://wa.me/254723614255" target = "_blank"  rel="noopener noreferrer"   className="hover:text-green-400 transition-colors">Chat with us on WhatsApp</a>
+          </p> 
         </div>
       </div>
     </footer>

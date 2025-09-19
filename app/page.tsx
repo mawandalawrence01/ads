@@ -23,79 +23,140 @@ import Footer from "@/components/footer"
 
 export default function Home() {
   const services = [
-    {
-      icon: Wifi,
-      title: "Internet Browsing",
-      description: "High-speed fiber internet with premium workspace experience",
-      price: "KSh 2/min",
-      features: [
-        "Ultra-fast fiber connection",
-        "Premium workstations",
-        "Climate-controlled environment", 
-        "24/7 availability"
-      ]
-    },
-    {
-      icon: Printer,
-      title: "Professional Printing",
-      description: "State-of-the-art printing technology for all your needs",
-      price: "KSh 5/page",
-      features: [
-        "Laser-quality printing",
-        "Color & monochrome options",
-        "Multiple paper formats",
-        "Same-day delivery"
-      ]
-    },
-    {
-      icon: Scan,
-      title: "Digital Services",
-      description: "Advanced scanning and document digitization",
-      price: "KSh 10/page",
-      features: [
-        "4K resolution scanning",
-        "Multi-format output",
-        "Instant cloud upload",
-        "Bulk processing discounts"
-      ]
-    },
-    {
-      icon: PenTool,
-      title: "Content Creation",
-      description: "Professional document design and typing services",
-      price: "KSh 20/page",
-      features: [
-        "CV/Resume design",
-        "Business proposals",
-        "Academic formatting",
-        "Express delivery"
-      ]
-    },
-    {
-      icon: ShoppingBag,
-      title: "Tech Accessories",
-      description: "Premium stationery and computer accessories",
-      price: "Competitive",
-      features: [
-        "Premium brands only",
-        "Latest tech accessories",
-        "Student discounts",
-        "Warranty included"
-      ]
-    },
-    {
-      icon: Smartphone,
-      title: "FinTech Hub",
-      description: "Complete mobile money and financial services",
-      price: "Standard rates",
-      features: [
-        "All mobile money platforms",
-        "International transfers",
-        "Crypto support",
-        "Financial consulting"
-      ]
-    }
-  ]
+  {
+    icon: Wifi,
+    title: "Internet Browsing",
+    description: "High-speed fiber internet with premium workspace experience",
+    price: "KSh 2/min",
+    features: [
+      "Ultra-fast fiber connection",
+      "Premium workstations",
+      "Climate-controlled environment",
+      "24/7 availability"
+    ]
+  },
+  {
+    icon: Printer,
+    title: "Professional Printing",
+    description: "State-of-the-art printing technology for all your needs",
+    price: "KSh 5/page",
+    features: [
+      "Laser-quality printing",
+      "Color & monochrome options",
+      "Multiple paper formats",
+      "Same-day delivery"
+    ]
+  },
+  {
+    icon: Scan,
+    title: "Digital Services",
+    description: "Advanced scanning and document digitization",
+    price: "KSh 10/page",
+    features: [
+      "4K resolution scanning",
+      "Multi-format output",
+      "Instant cloud upload",
+      "Bulk processing discounts"
+    ]
+  },
+  {
+    icon: PenTool,
+    title: "Content Creation",
+    description: "Professional document design and typing services",
+    price: "KSh 20/page",
+    features: [
+      "CV/Resume design",
+      "Business proposals",
+      "Academic formatting",
+      "Express delivery"
+    ]
+  },
+  {
+    icon: ShoppingBag,
+    title: "Tech Accessories",
+    description: "Premium stationery and computer accessories",
+    price: "Competitive",
+    features: [
+      "Premium brands only",
+      "Latest tech accessories",
+      "Student discounts",
+      "Warranty included"
+    ]
+  },
+  {
+    icon: Smartphone,
+    title: "FinTech Hub",
+    description: "Complete mobile money and financial services",
+    price: "Standard rates",
+    features: [
+      "All mobile money platforms",
+      "International transfers",
+      "Crypto support",
+      "Financial consulting"
+    ]
+  },
+  // 🔥 New services you wanted
+  {
+    icon: Rocket,
+    title: "Web Design & Development",
+    description: "Custom websites for individuals, businesses and e-commerce",
+    price: "From KSh 16,000",
+    features: [
+      "Responsive design",
+      "E-commerce integration",
+      "SEO optimization",
+      "Ongoing support"
+    ]
+  },
+  {
+    icon: Smartphone,
+    title: "Mobile App Development",
+    description: "Android & iOS apps built to scale your business",
+    price: "From KSh 80,000",
+    features: [
+      "Cross-platform apps",
+      "Modern UI/UX",
+      "API integration",
+      "Maintenance & updates"
+    ]
+  },
+  {
+    icon: Shield,
+    title: "Hosting & Domain Services",
+    description: "Reliable hosting and professional domain registration",
+    price: "From KSh 2,500/year",
+    features: [
+      "99.9% uptime guarantee",
+      "Secure hosting",
+      "Free SSL certificates",
+      "Email setup"
+    ]
+  },
+  {
+    icon: Target,
+    title: "Software Solutions",
+    description: "Tailor-made software for schools, businesses & organizations",
+    price: "Custom pricing",
+    features: [
+      "School management systems",
+      "POS & inventory apps",
+      "Business automation",
+      "Custom integrations"
+    ]
+  },
+  {
+    icon: Users,
+    title: "Training & Skills",
+    description: "Empowering you with tech skills to succeed",
+    price: "Affordable packages",
+    features: [
+      "Computer literacy training",
+      "Coding & programming lessons",
+      "Digital freelancing skills",
+      "Content creation courses"
+    ]
+  }
+]
 
   const testimonials = [
     {
